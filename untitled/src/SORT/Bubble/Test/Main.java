@@ -1,13 +1,11 @@
 package SORT.Bubble.Test;
 
+import java.util.*;
 
 /**
  * 거품 정렬(Bubble Sort)
  * 거품이 보글보글 올라가는 것처럼 인접한 두 원소를 (처음부터) 비교하여 자리 교환
- * **/
-
-import java.util.*;
-import java.io.*;
+**/
 
 public class Main {
     static int[] nums = {8, 4, 9, 3, 1, 5, 6, 7, 2};
