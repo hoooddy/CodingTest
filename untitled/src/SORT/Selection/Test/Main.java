@@ -1,17 +1,21 @@
-package SORT.Bubble.Test;
+package SORT.Selection.Test;
 
 import java.util.*;
 
 /**
- * 거품 정렬(Bubble Sort)
- * 거품이 보글보글 올라가는 것처럼 인접한 두 원소를 (처음부터) 비교하여 자리 교환
-**/
+ * 선택 정렬(Selection Sort)
+ * 자리를 선택 놓고 그에 들어갈 원소를 선택해서 swap
+ * 예) 0번 인덱스 -> 제일 작은 수
+ *     1번 인덱스 -> 그 다음으로 제일 작은 수
+ *     ...
+ **/
+
 
 public class Main {
 
     static int[] nums = {8, 4, 9, 3, 1, 5, 6, 7, 2, 5, 8};
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         /** 정렬 전 **/
         /** [8, 4, 9, 3, 1, 5, 6, 7, 2, 5, 8] **/
@@ -19,13 +23,13 @@ public class Main {
 
         /** 오름차순 정렬 **/
         for(int i = 0; i < nums.length; i++){
-            // 한번 크게 돌 때마다 제일 큰 숫자는 맨 뒤에 위치한다.
-            // 그러므로 nums.length - i만큼 돌아야 한다.
-            for(int j = 1; j < nums.length - i; j++){
-                if(nums[j-1] > nums[j]){
-                    swap(j-1, j);
+            int minValueIndex = i;
+            for(int j = i + 1; j < nums.length; j++) {
+                if(nums[minValueIndex] > nums[j]){
+                    minValueIndex = j;
                 }
             }
+            swap(i,minValueIndex);
         }
 
         /** 정렬 후 **/
@@ -39,4 +43,5 @@ public class Main {
         nums[a]=nums[b];
         nums[b] = tmp;
     }
+
 }
