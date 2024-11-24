@@ -5,6 +5,9 @@ import java.util.*;
 
 public class Main {
 
+    // N: 정점 개수
+    // M: 간선 개수
+    // V: 탐색을 시작할 정점 번호
     static int N, M, V;
     static int[][] graph;
     static StringBuilder answer = new StringBuilder();

@@ -4,96 +4,193 @@ package DFS.P1260;
 import java.io.*;
 import java.util.*;
 
-public class Main {
+//public class Main {
+//
+//    // N: 정점 개수
+//    // M: 간선 개수
+//    // V: 탐색을 시작할 정점 번호
+//    static int N, M, V;
+//    static int[][] graph;
+//    static StringBuilder answer = new StringBuilder();
+//    static boolean[] visited;
+//
+//
+//    public static void main(String[] args) throws Exception {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+//
+//        StringTokenizer st = new StringTokenizer(br.readLine());
+//
+//        N = Integer.parseInt(st.nextToken());
+//        M = Integer.parseInt(st.nextToken());
+//        V = Integer.parseInt(st.nextToken());
+//
+//
+//        graph = new int[N+1][N+1];
+//
+//        int u, v;
+//        for(int i = 0; i < M; i++) {
+//            st = new StringTokenizer(br.readLine());
+//            u = Integer.parseInt(st.nextToken());
+//            v = Integer.parseInt(st.nextToken());
+//
+//            graph[u][v] = 1;
+//            graph[v][u] = 1;
+//        }
+//
+//        visited = new boolean[N + 1];
+//        dfs(V);
+//
+//        answer.append("\n");
+//
+//        visited = new boolean[N + 1];
+//        bfs(V);
+//
+//        br.close();
+//        bw.write(answer.toString());
+//        bw.flush();
+//        bw.close();
+//    }
+//
+//
+//    static void dfs(int node) {
+//        // 1. 체크인
+//        visited[node] = true;
+//        answer.append(node + " ");
+//
+//        // 2. 목적지 인가
+//        // 3. 연결된 곳 순회
+//        for (int v = 1; v < N + 1; v++){
+//            // 4. 갈 수 있는가
+//            if(graph[node][v] == 1 && !visited[v]) {
+//                // 5. 간다.
+//                dfs(v);
+//            }
+//        }
+//        // 6. 체크아웃
+//    }
+//
+//    static void bfs(int node) {
+//        Queue<Integer> queue = new LinkedList<>();
+//
+//        queue.add(node);
+//        answer.append(node + " ");
+//        visited[node] = true;
+//
+//        while(!queue.isEmpty()) {
+//            // 1. 큐에서 가져온다
+//            node = queue.poll();
+//
+//            // 2. 목적지 인가
+//            // 3. 연결된 곳 순회
+//            for (int v = 1; v < N + 1; v++) {
+//                // 4. 갈 수 있는가
+//                if(graph[node][v] == 1 && !visited[v]) {
+//                    // 5. 체크인
+//                    visited[v] = true;
+//                    // 6. 큐에 넣는다.
+//                    queue.add(v);
+//                    answer.append(v + " ");
+//                }
+//            }
+//            // 7. 체크아웃
+//        }
+//    }
+//}
 
-    static int N, M, V;
+
+public class Main{
+
+    static int N;
+    static int M;
+    static int V;
+
     static int[][] graph;
-    static StringBuilder answer = new StringBuilder();
     static boolean[] visited;
+    static StringBuilder sb;
 
+    public static void main(String[] args) throws Exception{
 
-    public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
+        sb = new StringBuilder();
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         V = Integer.parseInt(st.nextToken());
 
+        graph = new int[N + 1][N + 1];
+        visited = new boolean[N + 1];
 
-        graph = new int[N+1][N+1];
-
-        int u, v;
-        for(int i = 0; i < M; i++) {
+        int u;
+        int v;
+        for(int i = 0; i < M; i++){
             st = new StringTokenizer(br.readLine());
             u = Integer.parseInt(st.nextToken());
             v = Integer.parseInt(st.nextToken());
-
             graph[u][v] = 1;
             graph[v][u] = 1;
         }
 
-        visited = new boolean[N + 1];
         dfs(V);
-
-        answer.append("\n");
+        sb.append("\n");
 
         visited = new boolean[N + 1];
         bfs(V);
 
         br.close();
-        bw.write(answer.toString());
+        bw.write(sb.toString());
         bw.flush();
         bw.close();
+
     }
 
-
-    static void dfs(int node) {
+    public static void dfs(int node){
         // 1. 체크인
         visited[node] = true;
-        answer.append(node + " ");
+        sb.append(node + " ");
 
         // 2. 목적지 인가
         // 3. 연결된 곳 순회
-        for (int v = 1; v < N + 1; v++){
+        for(int v = 1; v < N + 1; v++){
             // 4. 갈 수 있는가
-            if(graph[node][v] == 1 && !visited[v]) {
-                // 5. 간다.
+            if(graph[node][v] == 1 && !visited[v]){
+                // 5. 간다
                 dfs(v);
             }
         }
         // 6. 체크아웃
     }
 
-    static void bfs(int node) {
+    public static void bfs(int node){
         Queue<Integer> queue = new LinkedList<>();
 
-        queue.add(node);
-        answer.append(node + " ");
         visited[node] = true;
+        sb.append(node + " ");
+        queue.add(node);
 
-        while(!queue.isEmpty()) {
-            // 1. 큐에서 가져온다
+        while(!queue.isEmpty()){
             node = queue.poll();
 
-            // 2. 목적지 인가
-            // 3. 연결된 곳 순회
-            for (int v = 1; v < N + 1; v++) {
-                // 4. 갈 수 있는가
-                if(graph[node][v] == 1 && !visited[v]) {
-                    // 5. 체크인
+            for(int v = 1; v < N + 1; v++){
+                if(graph[node][v] == 1 && !visited[v]){
                     visited[v] = true;
-                    // 6. 큐에 넣는다.
+                    sb.append(v + " ");
                     queue.add(v);
-                    answer.append(v + " ");
                 }
             }
-            // 7. 체크아웃
         }
+
+        // 1. 큐에 넣는다
+        //
     }
+
+
 }
+
+
 
 //public class Main {
 //
