@@ -31,12 +31,12 @@ public class Main {
                 long[][] tmp = new long[10][2];
                 for(int i = 0; i < 10; i++) {
                     if(i == 0) {
-                        tmp[1][1] += dp[0][1];
+                        tmp[1][1] += dp[0][1] % MOD;
                     } else if (i == 9){
-                        tmp[8][1] += dp[9][1];
+                        tmp[8][1] += dp[9][1] % MOD;
                     } else {
-                        tmp[i - 1][1] += dp[i][1];
-                        tmp[i + 1][1] += dp[i][1];
+                        tmp[i - 1][1] += dp[i][1] % MOD;
+                        tmp[i + 1][1] += dp[i][1] % MOD;
                     }
                 }
                 dp = tmp;
@@ -45,7 +45,7 @@ public class Main {
 
         long answer = 0;
         for(int i = 0; i < 10; i++){
-            answer += dp[i][1];
+            answer += dp[i][1] % MOD;
         }
 
         sb.append(answer % MOD);
