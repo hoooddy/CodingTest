@@ -46,15 +46,15 @@ public class Main {
         bw.close();
     }
 
-
     static void DFS(int v, boolean[] visited){
         // 1. 체크인
-        // 2. 목적지인가
+
         visited[v] = true;
         sb.append(v + " ");
 
+        // 2. 목적지인가
+        // 3. 연결된 곳 순회
         for(int i = 1; i < N + 1; i++) {
-            // 3. 연결된 곳이 있는가
             if(graph[v][i] == 1){
                 // 4. 갈 수 있는가
                 if(visited[i] == false) {
@@ -70,23 +70,31 @@ public class Main {
         Queue<Integer> queue = new LinkedList<>();
         boolean[] visited = new boolean[N+1];
 
-        queue.add(v);
         visited[v] = true;
+        queue.add(v);
         sb.append(v + " ");
 
         int u;
         while(!queue.isEmpty()){
+            // 1. 큐에서 가져온다.
             u = queue.poll();
 
+            // 2. 목적지인가
+            // 3. 연결된 곳 순회
             for(int i = 1; i < N + 1; i++) {
                 if(graph[u][i] == 1) {
+                    // 4. 갈 수 있는가
                     if(visited[i] == false) {
-                        queue.add(i);
+                        // 5. 체크인
                         visited[i] = true;
+
+                        // 6. 큐에 넣는다.
+                        queue.add(i);
                         sb.append(i + " ");
                     }
                 }
             }
+            // 7. 체크아웃
         }
     }
 }
