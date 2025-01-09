@@ -30,3 +30,8 @@ bin/
 
 **/src/*
 !**/src/BaekJoon/**
+
+.idea
+out
+CodingTest.iml
+!src/*
