@@ -11,7 +11,7 @@
 
 ---
 - ✅ : 풀이 완료
-- ☑️ : 코드 참고
+- ☑️ : :hourglass_flowing_sand:
 - ㅁ: 풀이 예정
 ### [BOJ] 백준
 
@@ -22,7 +22,33 @@
 |    코드 번호    | 이름                                                   |  난이도   | 풀이 코드                      | 풀이 시간    | 풀이 유형                  | 상태 |
   |:-----------:|:-----------------------------------------------------|:------:|:---------------------------|:---------|:-----------------------|::|
 | **_1260_**  | [DFS와 BFS](https://www.acmicpc.net/problem/1260)     |  실버 2  | BOJ/BFS/P1260              |          | `BFS`                  | ✅ |
-
+| **_1707_**  | [이분 그래프](https://www.acmicpc.net/problem/1707)       |  골드 4  | BOJ/BFS/P1707              |          | `BFS`                  | ✅ |
+| **_3055_**  | [탈출](https://www.acmicpc.net/problem/3055)           |  골드 4  | BOJ/BFS/P3055              |          | `BFS`                  | :hourglass_flowing_sand: |
+| **_7576_**  | [토마토](https://www.acmicpc.net/problem/7576)          |  골드 5  | BOJ/BFS/P7576              |          | `BFS`                  | :hourglass_flowing_sand: |
+| **_11724_** | [연결 요소의 개수](https://www.acmicpc.net/problem/11724)   |  실버 2  | BOJ/BFS/P11724             |          | `BFS`                  | ✅ |
+| **_2805_**  | [나무 자르기](https://www.acmicpc.net/problem/2805)       |  실버 2  | BOJ/BinarySearch/P2805     |          | `BinarySearch`         | :hourglass_flowing_sand: |
+| **_1759_**  | [암호 만들기](https://www.acmicpc.net/problem/1759)       |  골드 5  | BOJ/DFS/P1759              |          | `DFS`                  | ✅ |
+| **_9663_**  | [N-Queen](https://www.acmicpc.net/problem/9663)      |  골드 4  | BOJ/DFS/P9663              |          | `DFS`                  | :hourglass_flowing_sand: |
+| **_1463_**  | [1로 만들기](https://www.acmicpc.net/problem/1463)       |  실버 3  | BOJ/DP/P1463               |          | `DP`                   | ✅ |
+| **_9095_**  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  |  실버 3  | BOJ/DP/P9095               |          | `DP`                   | ✅ |
+| **_10844_** | [쉬운 계단수](https://www.acmicpc.net/problem/10844)      |  실버 1  | BOJ/DP/P10844              |          | `DP`                   | ✅ |
+| **_11726_** | [2×n 타일링](https://www.acmicpc.net/problem/11726)     |  실버 3  | BOJ/DP/P11726              |          | `DP`                   | ✅ |
+| **_11727_** | [2×n 타일링 2](https://www.acmicpc.net/problem/11727)   |  실버 3  | BOJ/DP/P11727              |          | `DP`                   | ✅ |
+| **_14476_** | [최대공약수 하나 빼기](https://www.acmicpc.net/problem/14476) |  골드 2  | BOJ/GCD/P14476             |          | `GCD`                  |:hourglass_flowing_sand:  |
+| **_2252_**  | [줄 세우기](https://www.acmicpc.net/problem/2252)        |  골드 3  | BOJ/Graph/P2252            |          | `Graph`                | :hourglass_flowing_sand: |
+| **_1202_**  | [보석 도둑](https://www.acmicpc.net/problem/1202)        |  골드 2  | BOJ/Greedy/P1202           |          | `Greedy`               | :hourglass_flowing_sand: |
+| **_1927_**  | [최소 힙](https://www.acmicpc.net/problem/1927)         |  실버 2  | BOJ//P1927                 |          | `Heap`                 | :hourglass_flowing_sand: |
+| **_11279_** | [최대 힙](https://www.acmicpc.net/problem/11279)        |  실버 2  | BOJ//P11279                |          | `Heap`                 | :hourglass_flowing_sand: |
+| **_1717_**  | [집합의 표현](https://www.acmicpc.net/problem/1717)       |  골드 5  | BOJ/Set/P1717              |          | `Set`                  |:hourglass_flowing_sand:  |
+| **_1713_**  | [후보 추천하기](https://www.acmicpc.net/problem/1713)      |  실버 1  | BOJ/Simulation/P1713       |          | `Simulation`           |:hourglass_flowing_sand:  |
+| **_2042_**  | [구간 합 구하기](https://www.acmicpc.net/problem/2042)     |  골드 5  | BOJ/Tree/IndexedTree/P2042 |          | `Tree`, `Indexed Tree` | :hourglass_flowing_sand: |
+| **_2243_**  | [사탕상자](https://www.acmicpc.net/problem/2243)         | 플래티넘 5 | BOJ/Tree/IndexedTree/P2243 |          | `Tree`, `Indexed Tree` | :hourglass_flowing_sand: |
+| **_1922_**  | [네트워크 연결](https://www.acmicpc.net/problem/1922)      |  골드 4  | BOJ/MST/P1922              |          | `Tree`, `MST`          |:hourglass_flowing_sand:  |
+| **_2043_**  | [수 묶기](https://www.acmicpc.net/problem/2043)         | 플래티넘 2 | BOJ/Tree/P2043             |          | `Tree`                 | :hourglass_flowing_sand: |
+| **_9202_**  | [Boggle](https://www.acmicpc.net/problem/9202)       | 플래티넘 5 | BOJ/Trie/P9202             |          | `Trie`                 |  :hourglass_flowing_sand:|
+| **_1806_**  | [부분합](https://www.acmicpc.net/problem/1806)          |  골드 4  | BOJ/TwoPointer/P1806       |          | `TwoPointer`                     |:hourglass_flowing_sand:  |
+| **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       |          | `TwoPointer`                     | :hourglass_flowing_sand: |
+| **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       |          | `TwoPointer`                     |:hourglass_flowing_sand:  |
 
 </details>
 
@@ -33,17 +59,17 @@
   </br>
 
 |코드 번호|이름|난이도|풀이 코드|풀이 시간|풀이 유형|
-| **_1204_**  | [최빈수 구하기]|  D2  | SWEA//P2143       |          | ``                     | ⏳ |
-| **_1213_**  | [String]|  D3  | SWEA//P1213       |          | ``                     |  ⏳|
-| **_1859_**  | [백만 장자 프로젝트]|   D2 | SWEA//P1859       |          | ``                     | ⏳ |
-| **_2382_**  | [미생물 격리]|   모의 SW 역량테스트 | SWEA//P2382       |          | ``                     | ⏳ |
-| **_4013_**  | [특이한 자석]|  모의 SW 역량테스트  | SWEA//P4013       |          | ``                     | ⏳ |
-| **_4223_**  | [삼성이의 트라우마 극복]| D3   | SWEA//P4223       |          | ``                     |  ⏳|
-| **_14510_**  | [나무 높이]|  D2  | SWEA//P14510       |          | ``                     | ⏳ |
-| **_20739_**  | [고대 유적 2]| D2   | SWEA//P20739       |          | ``                     |⏳  |
-| **_21131_**  | [행렬정렬]| D3   | SWEA//P21131       |          | ``                     | ⏳ |
-| **_22372_**  | [직사각형과 점]| D2   | SWEA//P22372       |          | ``                     |  ⏳|
-| **_22654_**  | [차윤이의 RC카]| D2   | SWEA//P22654       |          | ``                     | ⏳ |
+| **_1204_**  | [최빈수 구하기]|  D2  | SWEA//P2143       |          | ``                     | :hourglass_flowing_sand: |
+| **_1213_**  | [String]|  D3  | SWEA//P1213       |          | ``                     |  :hourglass_flowing_sand:|
+| **_1859_**  | [백만 장자 프로젝트]|   D2 | SWEA//P1859       |          | ``                     | :hourglass_flowing_sand: |
+| **_2382_**  | [미생물 격리]|   모의 SW 역량테스트 | SWEA//P2382       |          | ``                     | :hourglass_flowing_sand: |
+| **_4013_**  | [특이한 자석]|  모의 SW 역량테스트  | SWEA//P4013       |          | ``                     | :hourglass_flowing_sand: |
+| **_4223_**  | [삼성이의 트라우마 극복]| D3   | SWEA//P4223       |          | ``                     |  :hourglass_flowing_sand:|
+| **_14510_**  | [나무 높이]|  D2  | SWEA//P14510       |          | ``                     | :hourglass_flowing_sand: |
+| **_20739_**  | [고대 유적 2]| D2   | SWEA//P20739       |          | ``                     |:hourglass_flowing_sand:  |
+| **_21131_**  | [행렬정렬]| D3   | SWEA//P21131       |          | ``                     | :hourglass_flowing_sand: |
+| **_22372_**  | [직사각형과 점]| D2   | SWEA//P22372       |          | ``                     |  :hourglass_flowing_sand:|
+| **_22654_**  | [차윤이의 RC카]| D2   | SWEA//P22654       |          | ``                     | :hourglass_flowing_sand: |
 
 </details>
 
