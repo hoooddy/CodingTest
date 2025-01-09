@@ -12,7 +12,7 @@
 ---
 - ✅ : 풀이 완료
 - ☑️ : :hourglass_flowing_sand:
-- ㅁ: 풀이 예정
+- :blush: : 풀이 예정
 ### [BOJ] 백준
 
 <details>
