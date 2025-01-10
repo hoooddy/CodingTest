@@ -28,6 +28,7 @@
 | **_1707_**  | [이분 그래프](https://www.acmicpc.net/problem/1707)       |  골드 4  | BOJ/BFS/P1707              | -     | `BFS`                           |    ✅    |
 | **_3055_**  | [탈출](https://www.acmicpc.net/problem/3055)           |  골드 4  | BOJ/BFS/P3055              | -     | `BFS`                           | :blush: |
 | **_7576_**  | [토마토](https://www.acmicpc.net/problem/7576)          |  골드 5  | BOJ/BFS/P7576              | -     | `BFS`                           |    ✅    |
+| **_7569_** | [토마토](https://www.acmicpc.net/problem/7569)          |  골드 5  | BOJ/BFS/P7569 |  | `BFS`                           |         |
 | **_11724_** | [연결 요소의 개수](https://www.acmicpc.net/problem/11724)   |  실버 2  | BOJ/BFS/P11724             | -     | `BFS`                           |    ✅    |
 | **_2805_**  | [나무 자르기](https://www.acmicpc.net/problem/2805)       |  실버 2  | BOJ/BinarySearch/P2805     | -     | `BinarySearch`                  | :blush: |
 | **_1759_**  | [암호 만들기](https://www.acmicpc.net/problem/1759)       |  골드 5  | BOJ/DFS/P1759              | -     | `DFS`                           |    ✅    |
