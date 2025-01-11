@@ -35,6 +35,7 @@
 | **_9663_**  | [N-Queen](https://www.acmicpc.net/problem/9663)      |  골드 4  | BOJ/DFS/P9663              | -  | `DFS`                  | :blush: |
 | **_15649_** | [N과 M (1)](https://www.acmicpc.net/problem/15649)    |  실버 3  | BOJ/BackTracking/P15649    | -  | `BackTracking`         |    ✅    |
 | **_15650_** | [N과 M (2)](https://www.acmicpc.net/problem/15650)    |  실버 3  | BOJ/BackTracking/P15650    | -  | `BackTracking`         |    ✅    |
+| **_15651_** | [N과 M (3)](https://www.acmicpc.net/problem/15651) | 실버 3 | BOJ/BackTracking/P15651    | 7m     | `BackTracking` |    ✅ |
 | **_1463_**  | [1로 만들기](https://www.acmicpc.net/problem/1463)       |  실버 3  | BOJ/DP/P1463               | -  | `DP`                   |    ✅    |
 | **_9095_**  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  |  실버 3  | BOJ/DP/P9095               | -  | `DP`                   |    ✅    |
 | **_10844_** | [쉬운 계단수](https://www.acmicpc.net/problem/10844)      |  실버 1  | BOJ/DP/P10844              | -  | `DP`                   |    ✅    |
