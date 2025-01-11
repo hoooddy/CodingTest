@@ -56,6 +56,7 @@
 | **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       | -  | `TwoPointer`           | :blush: |
 | **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       | -  | `TwoPointer`           | :blush: |
 
+
 </details>
 
 ### [SEA] 삼성 SW Expert Academy
@@ -97,8 +98,10 @@
 	<summary>문제 풀이 모음집</summary>
   </br>
 
-|번호|이름|난이도|코드|시간|유형|
-  |::|:-----|:-----:|:-----|:-----|:-----|
+
+|   번호    | 이름                                                                                                                        |  난이도   | 코드                      | 시간 |유형|
+|:-------:|:--------------------------------------------------------------------------------------------------------------------------|:------:|:------------------------|:---|:-----|
+| **_17_** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | LTC/BackTracking/P15650 | -  | `BackTracking` |    ✅ |
 
 </details>
 
