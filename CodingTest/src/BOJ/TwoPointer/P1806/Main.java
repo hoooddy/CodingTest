@@ -1,63 +1,53 @@
 package BOJ.TwoPointer.P1806;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.io.*;
 
 public class Main {
 
-    static int N;
-    static int S;
+    static int N, S;
     static int[] nums;
+    static int answer;
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
         N = Integer.parseInt(st.nextToken());
         S = Integer.parseInt(st.nextToken());
 
+        nums = new int[N];
         st = new StringTokenizer(br.readLine());
-
-        nums = new int[N + 1];
-        for (int n = 0; n < N; n++) {
+        for(int n = 0; n < N; n++) {
             nums[n] = Integer.parseInt(st.nextToken());
         }
 
-        int low = 0, high = 0;
-        int sum = nums[0];
-        int minLen = Integer.MAX_VALUE;
-
-        while (true) {
-            // sum < S
-            if (sum < S) {
-                high++;
-                sum += nums[high];
-            }
-
+        answer = Integer.MAX_VALUE;
+        int i = 0, j = 0, sum = nums[0];
+        while(true) {
             // sum >= S
-            else if (sum >= S) {
-                int tmpLen = high - low + 1;
-                if (tmpLen <= minLen) {
-                    minLen = tmpLen;
+            if(sum >= S) {
+                answer = Math.min(j - i + 1, answer);
+                sum -= nums[i++];
+            }
+            // sum < S
+            else {
+                if(N == ++j){
+                    break;
                 }
-
-                sum -= nums[low];
-                low++;
-            }
-
-            if (high == N) {
-                break;
+                sum += nums[j];
             }
         }
 
-        if (minLen == Integer.MAX_VALUE) {
-            System.out.println(0);
-        } else {
-            System.out.println(minLen);
+        if(answer == Integer.MAX_VALUE) {
+            answer = 0;
         }
 
+        br.close();
+        bw.write(String.valueOf(answer));
+        bw.flush();
+        bw.close();
     }
-
 }
