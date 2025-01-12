@@ -20,9 +20,6 @@ public class Main {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
 
-        System.out.println(N);
-        System.out.println(M);
-
         // 2 Pointer를 사용할 떈 1개 크게 만들어 두는게 편하다.
         nums = new int[N + 1];
 
@@ -30,7 +27,7 @@ public class Main {
         for (int i = 0; i < N; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
         }
-        System.out.println(Arrays.toString(nums));
+
 
         // low와 high로 sliding window 구성
         int low = 0, high = 0, sum = nums[0], count = 0;
