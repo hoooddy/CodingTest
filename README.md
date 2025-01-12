@@ -30,16 +30,17 @@
 | **_7576_**  | [토마토](https://www.acmicpc.net/problem/7576)          |  골드 5  | BOJ/BFS/P7576              | -  | `BFS`                  |       ✅       |
 | **_7569_**  | [토마토](https://www.acmicpc.net/problem/7569)          |  골드 5  | BOJ/BFS/P7569              |    | `BFS`                  |       ✅       |
 | **_11724_** | [연결 요소의 개수](https://www.acmicpc.net/problem/11724)   |  실버 2  | BOJ/BFS/P11724             | -  | `BFS`                  |       ✅       |
+| **_21922_** | [학부 연구생 민상](https://www.acmicpc.net/problem/21922) | 골드 5 | BOJ/BFS/21922  | -  | `BFS`                  |   ✅  |
 | **_2805_**  | [나무 자르기](https://www.acmicpc.net/problem/2805)       |  실버 2  | BOJ/BinarySearch/P2805     | -  | `BinarySearch`         |    :blush:    |
 | **_1759_**  | [암호 만들기](https://www.acmicpc.net/problem/1759)       |  골드 5  | BOJ/DFS/P1759              | -  | `DFS`                  |       ✅       |
-| **_9663_**  | [N-Queen](https://www.acmicpc.net/problem/9663)      |  골드 4  | BOJ/DFS/P9663              | -  | `DFS`                  |    :blush:    |
+| **_9663_**  | [N-Queen](https://www.acmicpc.net/problem/9663)      |  골드 4  | BOJ/BackTracking/P9663              | -  | `BackTracking`         |    :blush:    |
 | **_15649_** | [N과 M (1)](https://www.acmicpc.net/problem/15649)    |  실버 3  | BOJ/BackTracking/P15649    | -  | `BackTracking`         |       ✅       |
 | **_15650_** | [N과 M (2)](https://www.acmicpc.net/problem/15650)    |  실버 3  | BOJ/BackTracking/P15650    | -  | `BackTracking`         |       ✅       |
-| **_15651_** | [N과 M (3)](https://www.acmicpc.net/problem/15651)    | 실버 3 | BOJ/BackTracking/P15651    | -  | `BackTracking` |       ✅       |
-| **_15652_** | [N과 M (4)](https://www.acmicpc.net/problem/15652)    | 실버 3 | BOJ/BackTracking/P15652    | -  | `BackTracking` |       ✅       |
-| **_15654_** | [N과 M (5)](https://www.acmicpc.net/problem/15654)    | 실버 3 | BOJ/BackTracking/P15654    | -  | `BackTracking` |       ✅       |
-| **_15655_** | [N과 M (6)](https://www.acmicpc.net/problem/15655)    | 실버 3 | BOJ/BackTracking/P15655    | -  | `BackTracking` |       ✅       |
-| **_15656_** | [N과 M (7)](https://www.acmicpc.net/problem/15656)    | 실버 3 | BOJ/BackTracking/P15656    | -  | `BackTracking` |    :blush:    |
+| **_15651_** | [N과 M (3)](https://www.acmicpc.net/problem/15651)    | 실버 3 | BOJ/BackTracking/P15651    | -  | `BackTracking`         |       ✅       |
+| **_15652_** | [N과 M (4)](https://www.acmicpc.net/problem/15652)    | 실버 3 | BOJ/BackTracking/P15652    | -  | `BackTracking`         |       ✅       |
+| **_15654_** | [N과 M (5)](https://www.acmicpc.net/problem/15654)    | 실버 3 | BOJ/BackTracking/P15654    | -  | `BackTracking`         |       ✅       |
+| **_15655_** | [N과 M (6)](https://www.acmicpc.net/problem/15655)    | 실버 3 | BOJ/BackTracking/P15655    | -  | `BackTracking`         |       ✅       |
+| **_15656_** | [N과 M (7)](https://www.acmicpc.net/problem/15656)    | 실버 3 | BOJ/BackTracking/P15656    | -  | `BackTracking`         |    :blush:    |
 | **_1463_**  | [1로 만들기](https://www.acmicpc.net/problem/1463)       |  실버 3  | BOJ/DP/P1463               | -  | `DP`                   |       ✅       |
 | **_9095_**  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  |  실버 3  | BOJ/DP/P9095               | -  | `DP`                   |       ✅       |
 | **_10844_** | [쉬운 계단수](https://www.acmicpc.net/problem/10844)      |  실버 1  | BOJ/DP/P10844              | -  | `DP`                   |       ✅       |
@@ -58,7 +59,7 @@
 | **_2043_**  | [수 묶기](https://www.acmicpc.net/problem/2043)         | 플래티넘 2 | BOJ/Tree/P2043             | -  | `Tree`                 |    :blush:    |
 | **_9202_**  | [Boggle](https://www.acmicpc.net/problem/9202)       | 플래티넘 5 | BOJ/Trie/P9202             | -  | `Trie`                 |    :blush:    |
 | **_1806_**  | [부분합](https://www.acmicpc.net/problem/1806)          |  골드 4  | BOJ/TwoPointer/P1806       | -  | `TwoPointer`           |    :blush:    |
-| **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       | -  | `TwoPointer`           |    :blush:    |
+| **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       | -  | `TwoPointer`           |    ✅    |
 | **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       | -  | `TwoPointer`           |    :blush:    |
 
 
