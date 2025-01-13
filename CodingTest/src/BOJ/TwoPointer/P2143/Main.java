@@ -1,7 +1,6 @@
 package BOJ.TwoPointer.P2143;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.util.*;
 
 public class Main {
@@ -15,6 +14,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         T = Long.parseLong(br.readLine());
 
@@ -91,7 +91,11 @@ public class Main {
             }
         }
 
-        System.out.println(result);
+        br.close();
+        bw.write(String.valueOf(result));
+        bw.flush();
+        bw.close();
+
     }
 
 }
