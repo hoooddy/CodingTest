@@ -58,9 +58,9 @@
 | **_1922_**  | [네트워크 연결](https://www.acmicpc.net/problem/1922)      |  골드 4  | BOJ/MST/P1922              | -  | `Tree`, `MST`          |    :blush:    |
 | **_2043_**  | [수 묶기](https://www.acmicpc.net/problem/2043)         | 플래티넘 2 | BOJ/Tree/P2043             | -  | `Tree`                 |    :blush:    |
 | **_9202_**  | [Boggle](https://www.acmicpc.net/problem/9202)       | 플래티넘 5 | BOJ/Trie/P9202             | -  | `Trie`                 |    :blush:    |
-| **_1806_**  | [부분합](https://www.acmicpc.net/problem/1806)          |  골드 4  | BOJ/TwoPointer/P1806       | -  | `TwoPointer`           |    :blush:    |
+| **_1806_**  | [부분합](https://www.acmicpc.net/problem/1806)          |  골드 4  | BOJ/TwoPointer/P1806       | -  | `TwoPointer`           |    ✅    |
 | **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       | -  | `TwoPointer`           |    ✅    |
-| **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       | -  | `TwoPointer`           |    :blush:    |
+| **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       | -  | `TwoPointer`           |      ☑️  |
 
 
 </details>
