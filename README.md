@@ -44,6 +44,7 @@
 | **_15656_** | [N과 M (7)](https://www.acmicpc.net/problem/15656)    |  실버 3  | BOJ/BackTracking/P15656    | -  | `BackTracking`         |      ✅       |
 | **_15657_** | [N과 M (8)](https://www.acmicpc.net/problem/15657)    |  실버 3  | BOJ/BackTracking/P15657    | -  | `BackTracking`         |        ✅      |
 | **_15663_** | [N과 M (9)](https://www.acmicpc.net/problem/15663)    |  실버 2  | BOJ/BackTracking/P15663    |    | `BackTracking`      |    ✅ |
+| **_15664_** | [N과 M (10)](https://www.acmicpc.net/problem/15664)   |  실버 2  | BOJ/BackTracking/P15664    |    | `BackTracking`      |    ✅ |
 | **_1003_**  | [피보나치 함수](https://www.acmicpc.net/problem/1003)      |  실버 3  | BOJ/DP/P1003               | -  | `DP`                 |    ✅    |
 | **_1463_**  | [1로 만들기](https://www.acmicpc.net/problem/1463)       |  실버 3  | BOJ/DP/P1463               | -  | `DP`                   |      ✅       |
 | **_9095_**  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  |  실버 3  | BOJ/DP/P9095               | -  | `DP`                   |      ✅       |
