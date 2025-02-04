@@ -46,6 +46,7 @@
 | **_15663_** | [N과 M (9)](https://www.acmicpc.net/problem/15663)    |  실버 2  | BOJ/BackTracking/P15663    |    | `BackTracking`      |    ✅ |
 | **_15664_** | [N과 M (10)](https://www.acmicpc.net/problem/15664)   |  실버 2  | BOJ/BackTracking/P15664    |    | `BackTracking`      |    ✅ |
 | **_15665_** | [N과 M (11)](https://www.acmicpc.net/problem/15665)   |  실버 2  | BOJ/BackTracking/P15665    |    | `BackTracking`      |    ✅ |
+| **_15666_** | [N과 M (12)](https://www.acmicpc.net/problem/15666)   |  실버 2  | BOJ/BackTracking/P15666    |    | `BackTracking`      |    ✅ |
 | **_1003_**  | [피보나치 함수](https://www.acmicpc.net/problem/1003)      |  실버 3  | BOJ/DP/P1003               | -  | `DP`                 |    ✅    |
 | **_1463_**  | [1로 만들기](https://www.acmicpc.net/problem/1463)       |  실버 3  | BOJ/DP/P1463               | -  | `DP`                   |      ✅       |
 | **_9095_**  | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)  |  실버 3  | BOJ/DP/P9095               | -  | `DP`                   |      ✅       |
@@ -68,6 +69,34 @@
 | **_2003_**  | [수들의 합 2](https://www.acmicpc.net/problem/2003)      |  실버 4  | BOJ/TwoPointer/P2003       | -  | `TwoPointer`           |      ✅       |
 | **_2143_**  | [두 배열의 합](https://www.acmicpc.net/problem/2143)      |  골드 3  | BOJ/TwoPointer/P2143       | -  | `TwoPointer`           |      ☑️      |
 
+
+</details>
+
+### [SOFTEER] 소프티어
+
+<details>
+	<summary>문제 풀이 모음집</summary>
+  </br>
+
+
+|     번호     | 이름                                                                           |  난이도   | 코드                                               | 시간 | 유형                    |
+|:----------:|:-----------------------------------------------------------------------------|:------:|:-------------------------------------------------|:---|:----------------------|
+| **_6294_** | [성적 평균](https://softeer.ai/practice/6294)                                    | Level3 | SOFTEER/성적_평균                                    | -  | ``                    |    ✅ |
+| **_6273_** | [택배 마스터 광우](https://softeer.ai/practice/6273)                                | Level3 | SOFTEER/택배_마스터_광우                                | -  | `DFS`                 |   ✅  |
+| **_7594_** | [나무 조경](https://softeer.ai/practice/7594)                                    | Level3 | SOFTEER/나무_조경                                    | -  | ``                    |   ✅  |
+| **_9495_** | [Hanyang_Popularity_Exceeding_Competition](https://softeer.ai/practice/9495) | Level3 | SOFTEER/Hanyang_Popularity_Exceeding_Competition | -  | `DP`                  | ☑️   |
+| **_9496_** | [Pipelined](https://softeer.ai/practice/9496)                                | Level3 | SOFTEER/Pipelined                                | -  | ``                    |   ✅  |
+| **_6246_** | [순서대로 방문하기](https://softeer.ai/practice/6246)                                | Level3 | SOFTEER/순서대로_방문하기                                | -  | `DFS`                 | ✅    |
+| **_6279_** | [스마트 물류](https://softeer.ai/practice/6279)                                   | Level3 | SOFTEER/스마트_물류                                   | -  | `Greedy`              | ☑️    |
+| **_6289_** | [우물 안 개구리](https://softeer.ai/practice/6289)                                 | Level3 | SOFTEER/우물_안_개구리                                 | -  | ``                    |    ✅ |
+| **_6247_** | [자동차 테스트](https://softeer.ai/practice/6247)                                  | Level3 | SOFTEER/자동차_테스트                                  | -  | `Hash`,`BinarySearch` |   ✅  |
+| **_6255_** | [플레이페어 암호](https://softeer.ai/practice/6255)                                 | Level3 | SOFTEER/플레이페어_암호                                 | -  | `Simulation`          |   ✅  |
+| **_7721_** | [루돌프 월드컵](https://softeer.ai/practice/7721)                                  | Level3 | SOFTEER/루돌프_월드컵                                  | -  | `DFS`                 |     ✅ |
+| **_6250_** | [성적 평가](https://softeer.ai/practice/6250)                                    | Level3 | SOFTEER/성적_평가                                    | -  | `Hash`                |     ✅ |
+| **_6275_** | [로봇이 지나간 경로](https://softeer.ai/practice/6275)                               | Level3 | SOFTEER/로봇이_지나간_경로                               | -  | ``                |   :blush:   |
+| **_6293_** | [징검다리](https://softeer.ai/practice/6293)                                     | Level3 | SOFTEER/징검다리                                     | -  | `LIS`                 |     |
+| **_7649_** | [효도 여행](https://softeer.ai/practice/7649)                                    | Level3 | SOFTEER/효도_여행                                    | -  | `LCS`                 |     |
+| **_6276_** | [Garage Game](https://softeer.ai/practice/6276)                              | Level3 | SOFTEER/GarageGame                               | -  | ``                    |    |
 
 </details>
 
