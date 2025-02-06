@@ -85,7 +85,7 @@
 | **_6273_** | [택배 마스터 광우](https://softeer.ai/practice/6273)                                | Level3 | SOFTEER/택배_마스터_광우                                | -  | `DFS`                 |   ✅  |
 | **_7594_** | [나무 조경](https://softeer.ai/practice/7594)                                    | Level3 | SOFTEER/나무_조경                                    | -  | ``                    |   ✅  |
 | **_9495_** | [Hanyang_Popularity_Exceeding_Competition](https://softeer.ai/practice/9495) | Level3 | SOFTEER/Hanyang_Popularity_Exceeding_Competition | -  | `DP`                  | ☑️   |
-| **_9496_** | [Pipelined](https://softeer.ai/practice/9496)                                | Level3 | SOFTEER/Pipelined                                | -  | ``                    |   ✅  |
+| **_9496_** | [Pipelined](https://softeer.ai/practice/9496)                                | Level3 | SOFTEER/Pipelined                                | -  | `Greedy`              |   ✅  |
 | **_6246_** | [순서대로 방문하기](https://softeer.ai/practice/6246)                                | Level3 | SOFTEER/순서대로_방문하기                                | -  | `DFS`                 | ✅    |
 | **_6279_** | [스마트 물류](https://softeer.ai/practice/6279)                                   | Level3 | SOFTEER/스마트_물류                                   | -  | `Greedy`              | ☑️    |
 | **_6289_** | [우물 안 개구리](https://softeer.ai/practice/6289)                                 | Level3 | SOFTEER/우물_안_개구리                                 | -  | ``                    |    ✅ |
@@ -93,7 +93,11 @@
 | **_6255_** | [플레이페어 암호](https://softeer.ai/practice/6255)                                 | Level3 | SOFTEER/플레이페어_암호                                 | -  | `Simulation`          |   ✅  |
 | **_7721_** | [루돌프 월드컵](https://softeer.ai/practice/7721)                                  | Level3 | SOFTEER/루돌프_월드컵                                  | -  | `DFS`                 |     ✅ |
 | **_6250_** | [성적 평가](https://softeer.ai/practice/6250)                                    | Level3 | SOFTEER/성적_평가                                    | -  | `Hash`                |     ✅ |
-| **_6275_** | [로봇이 지나간 경로](https://softeer.ai/practice/6275)                               | Level3 | SOFTEER/로봇이_지나간_경로                               | -  | ``                |   :blush:   |
+| **_6275_** | [로봇이 지나간 경로](https://softeer.ai/practice/6275)                               | Level3 | SOFTEER/로봇이_지나간_경로                               | -  | ``                    |   :blush:   |
+| **_6261_** | [코딩 테스트 세트](https://softeer.ai/practice/6261)                                | Level3 | SOFTEER/코딩_테스트_세트                                | -  | ``                    |   :blush:   |
+| **_6265_** | [이미지 프로세싱](https://softeer.ai/practice/6265)                                 | Level3 | SOFTEER/이미지_프로세싱                                 | -  | `BFS`                 |   ✅   |
+| **_6291_** | [강의실 배정](https://softeer.ai/practice/6291)                                   | Level3 | SOFTEER/강의실_배정                                   | -  | `Greedy`              |   ✅   |
+| **_6251_** | [업무 처리](https://softeer.ai/practice/6251)                                    | Level3 | SOFTEER/업무_처리                                    | -  | ``                    |    |
 | **_6293_** | [징검다리](https://softeer.ai/practice/6293)                                     | Level3 | SOFTEER/징검다리                                     | -  | `LIS`                 |     |
 | **_7649_** | [효도 여행](https://softeer.ai/practice/7649)                                    | Level3 | SOFTEER/효도_여행                                    | -  | `LCS`                 |     |
 | **_6276_** | [Garage Game](https://softeer.ai/practice/6276)                              | Level3 | SOFTEER/GarageGame                               | -  | ``                    |    |
