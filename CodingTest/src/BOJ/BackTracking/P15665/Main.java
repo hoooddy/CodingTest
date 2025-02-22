@@ -3,12 +3,30 @@ package BOJ.BackTracking.P15665;
 import java.util.*;
 import java.io.*;
 
+// N과 M (11)
+// N개의 자연수 중에서 M개를 고른 수열
+// 같은 수를 여러 번 골라도 된다.
+
+// 예제 입력
+// 4 2
+// 9 7 9 1
+
+// 예제 출력
+// 1 1
+// 1 7
+// 1 9
+// 7 1
+// 7 7
+// 7 9
+// 9 1
+// 9 7
+// 9 9
+
 public class Main {
 
     static int N, M;
-    static int[] nums;
+    static int[] nums, result;
     static StringBuilder sb = new StringBuilder();
-    static Map<String, Boolean> tmpMap = new HashMap<>();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -20,15 +38,15 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
 
         nums = new int[N];
+
         st = new StringTokenizer(br.readLine());
         for(int n = 0; n < N; n++) {
             nums[n] = Integer.parseInt(st.nextToken());
         }
 
         Arrays.sort(nums);
-
-        List<Integer> result = new ArrayList<>();
-        BackTracking(result);
+        result = new int[M];
+        BackTracking(0);
 
         br.close();
         bw.write(sb.toString());
@@ -36,24 +54,30 @@ public class Main {
         bw.close();
     }
 
-    static void BackTracking(List<Integer> result) {
-        if(result.size() == M) {
-            String tmp = "";
+
+    // 같은 수를 여러번 골라도 된다.
+    // 방문 했는지에 대한 visited가 없어도 된다.
+    // 어디부터 시작할지에 대한 start가 없어도 된다.
+    static void BackTracking(int depth) {
+        if(depth == M) {
             for(Integer num : result) {
-                tmp += num + " ";
+                sb.append(num + " ");
             }
-            tmp += "\n";
-            if(tmpMap.get(tmp) == null) {
-                sb.append(tmp);
-                tmpMap.put(tmp, Boolean.TRUE);
-            }
-            return;
+            sb.append("\n");
+            return ;
         }
 
+        // 같은 자리에 중복되는 값을 한번 더 사용할 수 없다
+        // prev를 선언하여 이전 값과 현재 값이 같은지 확인해야 한다
+        int prev = 0;
         for(int n = 0; n < N; n++) {
-            result.add(nums[n]);
-            BackTracking(result);
-            result.remove(result.size() - 1);
+            if(prev != nums[n]) {
+                result[depth] = nums[n];
+
+                BackTracking(depth + 1);
+
+                prev = nums[n];
+            }
         }
     }
 }

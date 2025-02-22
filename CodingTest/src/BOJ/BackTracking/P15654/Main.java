@@ -3,16 +3,19 @@ package BOJ.BackTracking.P15654;
 import java.util.*;
 import java.io.*;
 
+// N과 M (5)
+// N개의 자연수 중에서 M개를 고른 수열
+
 public class Main {
 
-    static StringBuilder sb = new StringBuilder();
     static int N, M;
-    static int[] nums;
+    static int[] nums, result;
+    static boolean[] visited;
+    static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args ) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-
 
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -26,11 +29,11 @@ public class Main {
             nums[n] = Integer.parseInt(st.nextToken());
         }
 
-        List<Integer> result = new ArrayList<>();
-        boolean[] used = new boolean[N];
         Arrays.sort(nums);
 
-        BackTracking(result, used, 0);
+        visited = new boolean[N];
+        result = new int[M];
+        BackTracking(0);
 
         br.close();
         bw.write(sb.toString());
@@ -38,7 +41,8 @@ public class Main {
         bw.close();
     }
 
-    static void BackTracking(List<Integer> result, boolean[] used, int depth) {
+    // 다음 반복에서 앞의 원소를 다시 써야 하므로 visited[n]를 다시 false로 지정한다
+    static void BackTracking(int depth) {
         if(depth == M) {
             for(Integer num : result) {
                 sb.append(num + " ");
@@ -47,13 +51,14 @@ public class Main {
             return;
         }
 
-        for(int n = 0; n < N; n++){
-            if(!used[n]) {
-                used[n] = true;
-                result.add(nums[n]);
-                BackTracking(result, used, depth + 1);
-                used[n] = false;
-                result.remove(result.size() - 1);
+        for(int n = 0; n < N; n++) {
+            if(!visited[n]) {
+                visited[n] = true;
+                result[depth] = nums[n];
+
+                BackTracking(depth + 1);
+
+                visited[n] = false;
             }
         }
     }

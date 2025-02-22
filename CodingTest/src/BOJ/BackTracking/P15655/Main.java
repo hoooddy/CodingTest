@@ -3,10 +3,15 @@ package BOJ.BackTracking.P15655;
 import java.util.*;
 import java.io.*;
 
+
+// N과 M (6)
+// N개의 자연수 중에서 M개를 고른 수열
+// 고른 수열은 오름차순이어야 한다.
+
 public class Main {
 
     static int N, M;
-    static int[] nums;
+    static int[] nums, result;
     static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws Exception {
@@ -27,17 +32,17 @@ public class Main {
         }
 
         Arrays.sort(nums);
-        List<Integer> result = new ArrayList<>();
-        BackTracking(result, 0, 0);
+        result = new int[M];
+        BackTracking(0, 0);
 
         br.close();
         bw.write(sb.toString());
         bw.flush();
         bw.close();
-
     }
 
-    static void BackTracking(List<Integer> result, int start, int depth) {
+    // result는 오름차순이어야 하기 때문에 다음 반복의 start은 현재 n + 1로 지정해준다
+    static void BackTracking(int start, int depth) {
         if(depth == M) {
             for(Integer num : result) {
                 sb.append(num + " ");
@@ -47,9 +52,8 @@ public class Main {
         }
 
         for(int n = start; n < N; n++) {
-            result.add(nums[n]);
-            BackTracking(result, n + 1, depth + 1);
-            result.remove(result.size() - 1);
+            result[depth] = nums[n];
+            BackTracking(n + 1, depth + 1);
         }
     }
 }
