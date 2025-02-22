@@ -1,95 +1,86 @@
 package BOJ.BackTracking.P9663;
 
-import java.io.*;
 import java.util.*;
+import java.io.*;
+
+//N-Queen 문제는 크기가 N × N인 체스판 위에 퀸 N개를 서로 공격할 수 없게 놓는 문제이다.
+//N이 주어졌을 때, 퀸을 놓는 방법의 수를 구하는 프로그램을 작성하시오.
+
+// 퀸은 같은 row, 같은 col, 같은 대각선 상에 놓일 수 없다.
+// 문제를 바꿔 생각해보자
+// int[][] board = new int[N][N]로 놓지 말고
+// int[] board = new int[N]인 board를 생각해보자
+    // index: col, value: row
+// 각 col에 퀸들을 배치할 수 있는 row들을 찾아낸다고 생각하자
 
 public class Main {
 
-    static int N;
+    static int N, answer;
     static int[] board;
-    static int answer;
+    static boolean[] visited;
+    static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-
         N = Integer.parseInt(st.nextToken());
 
-        board = new int[N + 1];
-
-        boolean[] used = new boolean[N + 1];
+        // index: col, value: row
+        board = new int[N];
+        visited = new boolean[N];
         answer = 0;
-        BackTracking(used, 1);
+
+        BackTracking(0);
+
+        sb.append(answer);
 
         br.close();
-        bw.write(String.valueOf(answer));
+        bw.write(sb.toString());
         bw.flush();
         bw.close();
     }
 
-    // 같은 행 X, 같은 열 X, 대각선 X
-    static void BackTracking(boolean[] used, int col) {
-        if(col == N + 1){
+    static void BackTracking(int col) {
+        if(col == N) {
             answer += 1;
-            return ;
+            return;
         }
-        for(int row = 1; row <= N; row++){
-            if(!used[row]) {
-                // board의 col열, row행에 퀸을 놓을 수 있는가?
-                if(canPut(col, row)){
-                    board[col] = row;
-                    used[row] = true;
-                    BackTracking(used, col + 1);
-                    used[row] = false;
-                }
+
+        for(int row = 0; row < N; row++) {
+            if(visited[row]){
+                continue;
             }
+
+            visited[row] = true;
+
+            if(check(col, row)) {
+                board[col] = row;
+                BackTracking(col + 1);
+            }
+
+            visited[row] = false;
         }
     }
 
-    static boolean canPut(int col, int row) {
-        if(col == 1) {
-            return true;
-        } else {
-            for(int c = 1; c < col; c++) {
-                // 열이 같을 수 없기에 검사하지 않음 -> 열을 순회 하기 때문
-                // 1. 행이 같은지 검사
-                // 2. 대각선 검사
-                if(board[c] == row || Math.abs(c-col) == Math.abs(board[c] - row)) {
-                    return false;
-                }
+    // 해당 col의 row에 퀸을 놓을 수 있는지 검사
+    static boolean check(int col, int row) {
+
+        // 같은 col에 있는지는 검사할 필요 없다
+            // col을 돌면서 퀸을 놓을 것이기 때문
+        // 때문에 검사는 row와 대각선만 수행하면 된다.
+        for(int n = 0; n < col; n++) {
+            // row 검사
+            if(board[n] == row) {
+                return false;
+            }
+            // 대각선 검사
+            if(Math.abs(n - col) == Math.abs(board[n] - row)){
+                return false;
             }
         }
+
         return true;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
