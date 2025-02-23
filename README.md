@@ -131,20 +131,20 @@
 	<summary>문제 풀이 모음집</summary>
   </br>
 
-|     번호      | 이름                                                  |      난이도      | 코드           | 시간 | 유형                 |   상태    |
-|:-----------:|:----------------------------------------------------|:-------------:|:-------------|:---|:----------------------|:-------:|
-| **_1204_**  | [최빈수 구하기]                                           |      D2       | SWEA//P2143  | -  | ``                    | :blush: |
-| **_1206_** | [View]                                      | D3 | SWEA/P1206   | -  | ``                 |    ✅    |
-| **_1213_**  | [String]                                            |      D3       | SWEA//P1213  | -  | ``                    | :blush: |
-| **_1859_**  | [백만 장자 프로젝트]                                        |      D2       | SWEA//P1859  | -  | ``                    | :blush: |
-| **_2382_**  | [미생물 격리]                                            |  모의 SW 역량테스트  | SWEA//P2382  | -  | ``                    |  ☑️   |
-| **_4013_**  | [특이한 자석]                                            |  모의 SW 역량테스트  | SWEA//P4013  | -  | ``                    | :blush: |
-| **_4223_**  | [삼성이의 트라우마 극복]                                      |      D3       | SWEA//P4223  | -  | ``                    | :blush: |
-| **_14510_** | [나무 높이]                                             |      D2       | SWEA//P14510 | -  | ``                    | :blush: |
-| **_20739_** | [고대 유적 2]                                           |      D2       | SWEA//P20739 | -  | ``                    | :blush: |
-| **_21131_** | [행렬정렬]                                              |      D3       | SWEA//P21131 | -  | ``                    | :blush: |
-| **_22372_** | [직사각형과 점]                                           |      D2       | SWEA//P22372 | -  | ``                    | :blush: |
-| **_22654_** | [차윤이의 RC카]                                          |      D2       | SWEA//P22654 | -  | ``                    | :blush: |
+|     번호      | 이름                                                  |      난이도      | 코드                                                                                                    | 시간 | 유형                 |   상태    |
+|:-----------:|:----------------------------------------------------|:-------------:|:------------------------------------------------------------------------------------------------------|:---|:----------------------|:-------:|
+| **_1204_**  | [최빈수 구하기]                                           |      D2       | [SWEA/P2143](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P2143/Main.java)   | -  | ``                    | :blush: |
+| **_1206_** | [View]                                      | D3 | [SWEA/P1206](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P1206/Main.java)   | -  | ``                 |    ✅    |
+| **_1213_**  | [String]                                            |      D3       | [SWEA/P1213](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P1213/Main.java)   | -  | ``                    | :blush: |
+| **_1859_**  | [백만 장자 프로젝트]                                        |      D2       | [SWEA/P1859](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P1859/Main.java)   | -  | ``                    | :blush: |
+| **_2382_**  | [미생물 격리]                                            |  모의 SW 역량테스트  | [SWEA/P2382](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P2382/Main.java)   | -  | ``                    |  ☑️   |
+| **_4013_**  | [특이한 자석]                                            |  모의 SW 역량테스트  | [SWEA/P4013](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P4013/Main.java)   | -  | ``                    | :blush: |
+| **_4223_**  | [삼성이의 트라우마 극복]                                      |      D3       | [SWEA/P4223](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P4223/Main.java)   | -  | ``                    | :blush: |
+| **_14510_** | [나무 높이]                                             |      D2       | [SWEA/P14510](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P14510/Main.java) | -  | ``                    | :blush: |
+| **_20739_** | [고대 유적 2]                                           |      D2       | [SWEA/P20739](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P20739/Main.java) | -  | ``                    | :blush: |
+| **_21131_** | [행렬정렬]                                              |      D3       | [SWEA/P21131](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P21131/Main.java) | -  | ``                    | :blush: |
+| **_22372_** | [직사각형과 점]                                           |      D2       | [SWEA/P22372](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P22372/Main.java) | -  | ``                    | :blush: |
+| **_22654_** | [차윤이의 RC카]                                          |      D2       | [SWEA/P22654](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/SWEA/P22654/Main.java) | -  | ``                    | :blush: |
 
 </details>
 
@@ -155,9 +155,9 @@
   </br>
 
 
-|     번호      | 이름     |  난이도   | 코드              | 시간 | 유형      |   상태    |
-|:-----------:|:-------|:------:|:----------------|:---|:--------|:-------:|
-| **_42584_** | [주식가격] | Level2 | PGS/주식가격 | -  | `완전 탐색` | ✅  |
+|     번호      | 이름     |  난이도   | 코드                                                                                                  | 시간 | 유형      |   상태    |
+|:-----------:|:-------|:------:|:----------------------------------------------------------------------------------------------------|:---|:--------|:-------:|
+| **_42584_** | [주식가격] | Level2 | [PGS/주식가격](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/PGS/주식가격/Solution.java) | -  | `완전 탐색` | ✅  |
 
 
 </details>
@@ -169,9 +169,9 @@
   </br>
 
 
-|   번호    | 이름                                                                                                                        |  난이도   | 코드                      | 시간 |유형|
-|:-------:|:--------------------------------------------------------------------------------------------------------------------------|:------:|:------------------------|:---|:-----|
-| **_17_** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | LTC/BackTracking/P15650 | -  | `BackTracking` |    ✅ |
+|   번호    | 이름                                                                                                                        |  난이도   | 코드                                                                                                                            | 시간 |유형|
+|:-------:|:--------------------------------------------------------------------------------------------------------------------------|:------:|:------------------------------------------------------------------------------------------------------------------------------|:---|:-----|
+| **_17_** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | [LTC/BackTracking/P15650](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/LTC/BackTracking/P15650/Main.java) | -  | `BackTracking` |    ✅ |
 
 </details>
 
