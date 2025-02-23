@@ -169,9 +169,9 @@
   </br>
 
 
-|   번호    | 이름                                                                                                                        |  난이도   | 코드                                                                                                                            | 시간 |유형|
-|:-------:|:--------------------------------------------------------------------------------------------------------------------------|:------:|:------------------------------------------------------------------------------------------------------------------------------|:---|:-----|
-| **_17_** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | [LTC/BackTracking/P15650](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/LTC/BackTracking/P15650/Main.java) | -  | `BackTracking` |    ✅ |
+|   번호    | 이름                                                                                                                        |  난이도   | 코드                                                                                                                         | 시간 |유형|
+|:-------:|:--------------------------------------------------------------------------------------------------------------------------|:------:|:---------------------------------------------------------------------------------------------------------------------------|:---|:-----|
+| **_17_** | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) | Medium | [LTC/BackTracking/P15650](https://github.com/hoooddy/CodingTest/tree/master/CodingTest/src/LTC/BackTracking/P17/Main.java) | -  | `BackTracking` |    ✅ |
 
 </details>
 
