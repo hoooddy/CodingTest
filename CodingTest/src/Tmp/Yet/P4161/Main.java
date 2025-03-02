@@ -1,4 +1,4 @@
-package BOJ.BFS.P4161;
+package Tmp.Yet.P4161;
 
 import java.util.*;
 import java.io.*;
